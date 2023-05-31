@@ -1,0 +1,406 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+  max-width: 1350px;
+  margin: auto;
+}
+
+
+header {
+  display: flex;
+  grid-area: header;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+header .logo {
+  width: auto;
+  height: 160px;
+  background-color: white;
+  padding-top: 30px;
+}
+
+nav {
+  display: flex;
+  grid-area: nav;
+  justify-content: space-between;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  width: 90%;
+}
+
+li {
+  font-size: 20px;
+  background-color: white;
+  justify-content: space-between;
+  color: black;
+  list-style-type: none;
+  width: 100%;
+}
+
+.sectionA {
+  display: flex;
+  flex-direction: column;
+  grid-area: sectionA;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  line-height: 40px;
+}
+
+.sectionB {
+  display: flex;
+  flex-direction: column;
+  grid-area: sectionB;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-position: center;
+  border-radius: 30px;
+
+}
+
+.Menciones {
+  display: flex;
+  flex-direction: row;
+  grid-area: Menciones;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.actividades {
+  background-color: black;
+  color: white;
+}
+
+
+.imagen_diario_universal {
+  height: 100px;
+  width: 110px;
+}
+
+.imagen_diario_expansion {
+  height: 80px;
+  width: 200px;
+}
+
+.imagen_diario_milenio {
+  height: 80px;
+  width: 85px;
+}
+
+.imagen_diario_reforma {
+  height: 80px;
+  width: 310px;
+  padding-right: 80px;
+}
+
+.imagen_diario_chilango {
+  height: 80px;
+  width: 200px;
+}
+
+.sectionC {
+  display: flex;
+  flex-direction: column;
+  grid-area: sectionC;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.carrusel {
+  width: 60%;
+  border-radius: 30px;
+  padding-bottom: 10px;
+}
+
+.sectionD {
+  display: flex;
+  flex-direction: column;
+  grid-area: sectionD;
+  background-color: black;
+  align-items: center;
+  padding: 60px;
+}
+
+
+.sectionE {
+  display: flex;
+  flex-direction: column;
+  grid-area: sectionE;
+  background-color: black;
+  align-items: center;
+  padding: 60px;
+}
+
+
+.sectionF {
+  display: flex;
+  grid-area: sectionF;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  background-color: black;
+}
+
+.form {
+  display: flex;
+  grid-area: form;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: gray;
+  padding: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: gray;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sectionG {
+  display: flex;
+  grid-area: sectionG;
+  padding: 0px;
+  max-width: none;
+}
+
+
+footer {
+  display: flex;
+  grid-area: footer;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+  width: 100%;
+}
+
+.logo_footer {
+  height: 100px;
+  width: 120px;
+}
+
+.logo_fb {
+  height: 80px;
+  width: 80px;
+}
+
+.logo_youtube {
+  height: 160px;
+  width: 160px;
+}
+
+.logo_wa {
+  height: 150px;
+  width: 150px;
+}
+
+.Derechos {
+  grid-area: Derechos;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.derechos {
+  background-color: white;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.container-boton {
+  background-color: #1CAA2E;
+  border: 1px solid #1CAA2E;
+  position: fixed;
+  z-index: 1;
+  border-radius: 90%;
+  bottom: 20px;
+  right: 25px;
+  padding: 20px;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+}
+
+.container-boton a {
+  background-color: #1CAA2E;
+}
+
+.container-boton:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.boton {
+  width: 80px;
+  transition: ease 2s;
+  background-color: #1CAA2E;
+  color: gray;
+}
+
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 #fff (0, 0, 0, 0.85);
+  }
+
+  100% {
+    box-shadow: 0 0 0 25p #fff(0, 0, 0, 0);
+  }
+}
+
+@media (max-width: 768px) {
+  .gridpadre {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "nav"
+      "sectionA"
+      "sectionB"
+      "sectionC"
+      "sectionD"
+      "sectionE"
+      "sectionF"
+      "sectionF"
+      "form"
+      "sectionG"
+      "footer"
+      "Derechos";
+  }
+
+  .sectionB {
+    display: none;
+  }
+
+  .sectionF {
+    display: none;
+  }
+
+  .form {
+    display: none;
+  }
+
+  .sectionG {
+    display: none;
+  }
+
+  .Derechos {
+    display: none;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .gridpadre {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "nav nav"
+      "sectionA sectionA"
+      "sectionB sectionB"
+      "sectionC sectionC"
+      "sectionD sectionE"
+      "sectionF sectionF"
+      "form sectionG"
+      "footer footer"
+      "Derechos Derechos";
+  }
+
+  .sectionB {
+    display: none;
+  }
+
+  .sectionF {
+    display: none;
+  }
+
+  .form {
+    display: none;
+  }
+
+  .sectionG {
+    display: none;
+  }
+
+  .Derechos {
+    display: none;
+  }
+
+}
+
+
+
+@media (min-width: 990px) {
+  .gridpadre {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "nav nav"
+      "sectionA sectionA"
+      "sectionB sectionB"
+      "sectionC sectionC"
+      "sectionD sectionE"
+      "sectionF sectionF"
+      "form sectionG"
+      "footer footer"
+      "Derechos Derechos";
+  }
+}
