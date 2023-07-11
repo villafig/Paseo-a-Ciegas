@@ -2,7 +2,6 @@
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: white;
-  max-width: 1200px;
   margin: auto;
 }
 
@@ -14,6 +13,7 @@ body{
     height: 100vh;
     z-index: -1;
     animation: colorChange 12s infinite alternate;
+    overflow: hidden;
   }
   
   @keyframes colorChange {
@@ -47,7 +47,6 @@ header {
   align-items: center;
   text-align: center;
   justify-content: center;
-  width: 1200px;
 }
 
 header .logo {
@@ -68,7 +67,6 @@ nav {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  width: 1200%;
 }
 
 ul {
@@ -85,7 +83,6 @@ li {
   justify-content: space-between;
   color: white;
   list-style-type: none;
-  width: 100%;
 }
 
 a {
@@ -111,7 +108,6 @@ a {
   display: flex;
   flex-direction: column;
   grid-area: sectionB;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
   text-align: center;
@@ -208,7 +204,6 @@ a {
 }
 
 .sectionD .taller_1 {
-  width: 300px;
   height: 250px;
   border-radius: 40px;
 }
@@ -224,7 +219,6 @@ a {
 }
 
 .sectionE .taller_2 {
-  width: 300px;
   height: 250px;
   border-radius: 40px;
 }
@@ -369,6 +363,16 @@ footer {
   transition: ease 2s;
   background-color: white;
   color: gray;
+}
+
+
+.gridpadre {
+  max-width: 90%;
+  /* Ajusta el ancho máximo a la ventana del navegador */
+  margin-left: 40px;
+  /* Centra horizontalmente el contenido */
+  margin-right: 40px;
+  /* Centra horizontalmente el contenido */
 }
 
 @keyframes efecto {
