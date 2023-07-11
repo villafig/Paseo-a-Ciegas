@@ -13,7 +13,7 @@ body{
     height: 100vh;
     z-index: -1;
     animation: colorChange 12s infinite alternate;
-    overflow: hidden;
+    overflow-y: scroll;
   }
   
   @keyframes colorChange {
