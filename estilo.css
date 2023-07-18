@@ -4,12 +4,14 @@
 }
 
 body {
-  background-color: #54A4C5;
+  background-color: #06708D;
 }
 
 .header_logo {
-  border-radius: 40px;
-}
+  border-radius: 20px;
+  width: auto;
+  height: auto;
+    }
 
 .navbar {
   width: auto;
@@ -21,32 +23,9 @@ body {
   height: 50px;
 }
 
-
-ul {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  color: white;
-}
-
-li {
-  font-size: 25px;
-  color: white;
-  list-style-type: none;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-.row {
-  display: flex;
-  justify-content: center;
-}
-
-.text-center {
-  text-align: center;
+.img_carrusel{
+      height: 350px;
+      object-fit: cover;
 }
 
 .imagen_tvazteca {

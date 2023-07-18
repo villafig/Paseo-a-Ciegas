@@ -19,9 +19,19 @@
     <title>Paseo a Ciegas</title>
   </head>
 
-  <body class="container-fluid">
+  <body>
+    <header class="col-xl-2 col-md-6 col-sm-12">
+      <a href="index.html">
+        <img
+          class="img-fluid header_logo mt-5"
+          src="./Imágenes/LOGO Paseo_a_ciegas.jpg"
+          alt="Logo_Paseo_a_Ciegas"
+        />
+      </a>
+    </header>
+
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light m-5 navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-5 navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img class="navbar_logo" src="./Imágenes/paseo-a-ciegas-logo.jpeg"
@@ -57,34 +67,6 @@
     </nav>
     <!--Fin Navbar-->
 
-    <header class="header text-center">
-      <a href="index.html">
-        <img
-          class="img-container-fluid header_logo"
-          src="./Imágenes/LOGO Paseo_a_ciegas.jpg"
-          alt="Logo_Paseo_a_Ciegas"
-        />
-      </a>
-    </header>
-
-    <nav class="m-5 nav text-center">
-      <ul class="p-4">
-        <li class="text-center mb-4">
-          <a class="text-center" href="./Paginas/Donaciones.html">Donaciones</a>
-        </li>
-        <li class="text-center mb-4">
-          <a class="text-center" href="./Paginas/Eventos.html"
-            >Taller de Sensibilización</a
-          >
-        </li>
-        <li class="text-center mb-4">
-          <a class="text-center" href="./Paginas/Voluntariado.html"
-            >Voluntariado</a
-          >
-        </li>
-      </ul>
-    </nav>
-
     <div class="text-center m-5">
       <p>
         Paseo a Ciegas es una Asociación Civil sin fines de lucro, que apoya a
@@ -95,50 +77,115 @@
       </p>
     </div>
 
+    <!--Inicio Carrusel-->
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide carrusel"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img
+            src="./Imágenes/carrusel_1.jpeg"
+            class="d-block w-100 img_carrusel"
+            alt="imagen_carrusel_1"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="./Imágenes/carrusel_2.jpeg"
+            class="d-block w-100 img_carrusel"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./Imágenes/carrusel_3.jpeg"
+            class="d-block w-100 img_carrusel"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./Imágenes/carrusel_4.jpeg"
+            class="d-block w-100 img_carrusel"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./Imágenes/carrusel_5.jpeg"
+            class="d-block w-100 img_carrusel"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Fin Carrusel-->
+
     <div class="row d-flex justify-content-center text-center">
-      <div class="col-xl-2 col-md-6 col-sm-12">
+      <div class="col-xl-2 col-md-6 col-sm-12 mb-2">
         <img
-          class="imagen_tvazteca"
+          class="imagen_tvazteca mt-5"
           src="./Imágenes/logo_tvazteca.png"
           alt="logo_tvazteca"
         />
       </div>
 
-      <div class="col-xl-2 col-md-6 col-sm-12">
+      <div class="col-xl-2 col-md-6 col-sm-12 mb-2">
         <img
-          class="imagen_diario_expansion"
+          class="imagen_diario_expansion mt-5"
           src="./Imágenes/logo-expansion.svg"
           alt="logo_expansión"
         />
       </div>
 
-      <div class="col-xl-2 col-md-6 col-sm-12">
+      <div class="col-xl-2 col-md-6 col-sm-12 mb-2">
         <img
-          class="imagen_diario_milenio"
+          class="imagen_diario_milenio mt-5"
           src="./Imágenes/milenio_logo_ok.png"
           alt="logo_milenio"
         />
       </div>
 
-      <div class="col-xl-2 col-md-6 col-sm-12">
+      <div class="col-xl-2 col-md-6 col-sm-12 mb-2">
         <img
-          class="imagen_diario_universal"
+          class="imagen_diario_universal mt-5"
           src="./Imágenes/El_Universal_Logo_01.png"
           alt="logo_eluniversal"
         />
       </div>
 
-      <div class="col-xl-2 col-md-6 col-sm-12">
+      <div class="col-xl-2 col-md-6 col-sm-12 mb-2">
         <img
-          class="imagen_diario_chilango"
+          class="imagen_diario_chilango mt-5"
           src="./Imágenes/logoChilangoWeb-1.png"
           alt="logo_chilango"
         />
       </div>
 
-      <div class="col-xl-2 col-md-6 col-sm-12">
+      <div class="col-xl-2 col-md-6 col-sm-12 mb-2">
         <img
-          class="imagen_imagen_television img-fluid"
+          class="imagen_imagen_television mt-5"
           src="./Imágenes/imagen_television.svg"
           alt="logo_imagen_television"
         />
@@ -189,7 +236,7 @@
           <h2>Participa con Nosotros</h2>
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label"
-              >Email address</label
+              >Correo</label
             >
             <input
               type="email"
@@ -200,7 +247,7 @@
           </div>
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label"
-              >Example textarea</label
+              >Ingresa tu datos y tu razón de contacto</label
             >
             <textarea
               class="form-control"
@@ -213,31 +260,26 @@
 
       <div class="col-md-6 mapa">
         <div class="text-center">
-          <h3>Visítanos todos los domingos</h3>
+          <h2>Visítanos todos los domingos</h2>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.6916363235855!2d-99.17406612521691!3d19.42572504090127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff9f66d5cd35%3A0xba8ede7573cd9b27!2sFlecha%20de%20la%20Diana%20cazadora!5e0!3m2!1ses-419!2smx!4v1684974640996!5m2!1ses-419!2smx"
             allowfullscreen=""
             height="400px"
             width="400px"
-            loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>
     </div>
 
-    <footer class="text-center m-5">
+    <footer class="text-center">
       <p class="text-center mb-4">info@paseoaciegas.com</p>
       <img
-        class="logo_youtube img-container-fluid mb-4"
+        class="logo_youtube"
         src="./Imágenes/youtube_logo.webp"
         alt="logo_youtube"
       />
-      <img
-        class="logo_fb img-container-fluid"
-        src="./Imágenes/fb_logo.webp"
-        alt="logo_fb"
-      />
+      <img class="logo_fb" src="./Imágenes/fb_logo.webp" alt="logo_fb" />
     </footer>
 
     <div class="img-container-fluid text-center mx-auto">
