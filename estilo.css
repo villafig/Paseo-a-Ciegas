@@ -1,306 +1,109 @@
 * {
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
   color: white;
-  margin: auto;
 }
 
-body{
-    margin-top: 100px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    animation: colorChange 12s infinite alternate;
-    overflow-y: scroll;
-  }
-  
-  @keyframes colorChange {
-    0% {
-      background-color: #2E86C1;
-    }
-
-    33.33% {
-      background-color: #789AAF;
-      }
-  
-    /* Color inicial */
-    66.66% {
-      background-color: #3498DB;
-    }
-
-    /* Color inicial */
-    100% {
-      background-color: #2E86C1;
-        } 
-  
-    /* Color final */  
-  }
-
-
-header {
-  display: flex;
-  grid-area: header;
-  flex-direction: column;
-  background-color: none;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
+body {
+  background-color: #54A4C5;
 }
 
-header .logo {
+.header_logo {
+  border-radius: 40px;
+}
+
+.navbar {
   width: auto;
-  height: 160px;
-  background-color: none;
   border-radius: 20px;
+  color: white;
 }
 
-nav {
-  display: flex;
-  grid-area: nav;
-  justify-content: space-between;
-  background-color: none;
-  color: white;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+.navbar_logo {
+  height: 50px;
 }
+
 
 ul {
   display: flex;
-  background-color: none;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
   color: white;
 }
 
 li {
   font-size: 25px;
-  background-color: none;
-  justify-content: space-between;
   color: white;
   list-style-type: none;
 }
 
 a {
-      background-color: none;
-      color: white;
-      text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
-
-.sectionA {
+.row {
   display: flex;
-  flex-direction: column;
-  grid-area: sectionA;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+}
+
+.text-center {
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  line-height: 40px;
-}
-
-.sectionB {
-  display: flex;
-  flex-direction: column;
-  grid-area: sectionB;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  background-position: center;
-  border-radius: 30px;
-
-}
-
-.Menciones {
-  display: flex;
-  flex-direction: row;
-  grid-area: Menciones;
-  background-color: none;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
-
-.actividades {
-  background-color: none;
-  color: none;
 }
 
 .imagen_tvazteca {
-  height: 120px;
-  width: 120px;
+  height: 90px;
+
 }
 
-
 .imagen_diario_universal {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+
 }
 
 .imagen_diario_expansion {
   height: 80px;
-  width: 180px;
+  width: 120px;
+
 }
 
 .imagen_diario_milenio {
-  height: 80px;
-  width: 85px;
-}
+  height: 90px;
 
-.imagen_diario_reforma {
-  height: 80px;
-  width: 80px;
 }
 
 .imagen_diario_chilango {
-  height: 60px;
-  width: 160px;
+  height: 70px;
+  width: 140px;
 }
 
 .imagen_imagen_television {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+
 }
 
-.sectionC {
-  display: flex;
-  flex-direction: column;
-  grid-area: sectionC;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 40px;
-}
-
-.sectionC .video_home{
+.video {
   border-radius: 40px;
-}
-
-.sectionC .video_voluntariado{
-  border-radius: 40px;
-}
-
-.sectionC .video_taller_de_sensibilizacion {
-  border-radius: 40px;
-}
-
-.sectionC .video_donativos {
-  border-radius: 40px;
-}
-
-
-.sectionD {
-  display: flex;
-  flex-direction: column;
-  grid-area: sectionD;
-  background-color: none;
-  align-items: center;
-  padding: 60px;
-}
-
-.sectionD .taller_1 {
-  height: 250px;
-  border-radius: 40px;
-}
-
-
-.sectionE {
-  display: flex;
-  flex-direction: column;
-  grid-area: sectionE;
-  background-color: none;
-  align-items: center;
-  padding: 60px;
-}
-
-.sectionE .taller_2 {
-  height: 250px;
-  border-radius: 40px;
-}
-
-
-.sectionF {
-  display: flex;
-  grid-area: sectionF;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  padding: 40px;
-  background-color: none;
-}
-
-.form {
-  display: flex;
-  grid-area: form;
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #34495E;
-  padding: 20px;
-  border-radius: 10px;
-  flex-direction: column;
 }
 
 label {
   display: block;
   font-weight: bold;
   margin-bottom: 10px;
-  background-color: #34495E ;
+  background-color: #34495E;
 }
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 90%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  border: none;
-  background-color: white;
-}
-
-input[type="submit"] {
-  background-color: #4caf50;
-  color: white;
-  padding: 20px 40px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.sectionG {
-  display: flex;
-  grid-area: sectionG;
-  padding: 0px;
-  max-width: none;
-}
-
 
 footer {
   display: flex;
-  grid-area: footer;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   padding-top: 70px;
   padding-bottom: 100px;
-  width: 100%;
 }
 
 .logo_footer {
   height: 100px;
-  width: 120px;
   border-radius: 10px;
-  margin-top: 80px;
-
+  margin-bottom: 20px;
 }
 
 .logo_fb {
@@ -318,22 +121,12 @@ footer {
   width: 150px;
 }
 
-.Derechos {
-  grid-area: Derechos;
-  flex-direction: column;
-  background-color: none;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 100px;
+.mapa{
+  padding: 30px;
 }
 
-.derechos {
-  background-color: none;
-  color: white;
-  padding-bottom: 20px;
+.formulario{
+  padding: 60px;
 }
 
 .container-boton {
@@ -363,123 +156,4 @@ footer {
   transition: ease 2s;
   background-color: white;
   color: gray;
-}
-
-
-.gridpadre {
-  max-width: 90%;
-  /* Ajusta el ancho máximo a la ventana del navegador */
-  margin-left: 40px;
-  /* Centra horizontalmente el contenido */
-  margin-right: 40px;
-  /* Centra horizontalmente el contenido */
-}
-
-@keyframes efecto {
-  0% {
-    box-shadow: 0 0 0 0 #fff (0, 0, 0, 0.85);
-  }
-
-  100% {
-    box-shadow: 0 0 0 25p #fff(0, 0, 0, 0);
-  }
-}
-
-@media (max-width: 768px) {
-  .gridpadre {
-    display: grid;
-    grid-template-areas:
-      "header"
-      "nav"
-      "sectionA"
-      "sectionB"
-      "sectionC"
-      "sectionD"
-      "sectionE"
-      "sectionF"
-      "sectionF"
-      "form"
-      "sectionG"
-      "footer"
-      "Derechos";
-  }
-
-  .sectionB {
-    display: none;
-  }
-
-  .sectionF {
-    display: none;
-  }
-
-  .form {
-    display: none;
-  }
-
-  .sectionG {
-    display: none;
-  }
-
-  .Derechos {
-    display: none;
-  }
-
-}
-
-
-@media (min-width: 768px) and (max-width: 990px) {
-  .gridpadre {
-    display: grid;
-    grid-template-areas:
-      "header header"
-      "nav nav"
-      "sectionA sectionA"
-      "sectionB sectionB"
-      "sectionC sectionC"
-      "sectionD sectionE"
-      "sectionF sectionF"
-      "form sectionG"
-      "footer footer"
-      "Derechos Derechos";
-  }
-
-  .sectionB {
-    display: none;
-  }
-
-  .sectionF {
-    display: none;
-  }
-
-  .form {
-    display: none;
-  }
-
-  .sectionG {
-    display: none;
-  }
-
-  .Derechos {
-    display: none;
-  }
-
-}
-
-
-
-@media (min-width: 990px) {
-  .gridpadre {
-    display: grid;
-    grid-template-areas:
-      "header header"
-      "nav nav"
-      "sectionA sectionA"
-      "sectionB sectionB"
-      "sectionC sectionC"
-      "sectionD sectionE"
-      "sectionF sectionF"
-      "form sectionG"
-      "footer footer"
-      "Derechos Derechos";
-  }
 }
