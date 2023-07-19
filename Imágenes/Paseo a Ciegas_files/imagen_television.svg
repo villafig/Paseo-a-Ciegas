@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="293.696" height="326.967" viewBox="0 0 293.696 326.967">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_15" data-name="Rectángulo 15" width="293.696" height="326.967" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_11" data-name="Grupo 11" transform="translate(0 0)">
+    <path id="Trazado_24" data-name="Trazado 24" d="M0,112.187v5.456H10.623v28.05h5.934v-28.05H27.186v-5.456Z" transform="translate(0 180.703)" fill="#1d1d1b"/>
+    <path id="Trazado_25" data-name="Trazado 25" d="M12.7,112.187v33.506H37.786v-5.271H18.594v-8.994h16.8v-5.266h-16.8v-8.709H37.545v-5.266Z" transform="translate(20.463 180.703)" fill="#1d1d1b"/>
+    <path id="Trazado_26" data-name="Trazado 26" d="M25.3,112.187v33.506H48.8v-5.362H31.19V112.187Z" transform="translate(40.751 180.703)" fill="#1d1d1b"/>
+    <path id="Trazado_27" data-name="Trazado 27" d="M36.741,112.187v33.506H61.822v-5.271h-19.2v-8.994h16.8v-5.266h-16.8v-8.709H61.582v-5.266Z" transform="translate(59.179 180.703)" fill="#1d1d1b"/>
+    <path id="Trazado_28" data-name="Trazado 28" d="M74.821,112.187l-10.049,25.75-10.1-25.75H48.163l13.928,33.741h5.167l13.928-33.741Z" transform="translate(77.577 180.703)" fill="#1d1d1b"/>
+    <rect id="Rectángulo_11" data-name="Rectángulo 11" width="5.89" height="33.506" transform="translate(164.319 292.89)" fill="#1d1d1b"/>
+    <g id="Grupo_10" data-name="Grupo 10" transform="translate(0 0)">
+      <g id="Grupo_9" data-name="Grupo 9" clip-path="url(#clip-path)">
+        <path id="Trazado_29" data-name="Trazado 29" d="M68.019,141.106l3.543-4.211c3.206,2.775,6.412,4.355,10.576,4.355,3.637,0,5.932-1.679,5.932-4.211v-.1c0-2.389-1.337-3.679-7.558-5.117-7.13-1.723-11.15-3.83-11.15-10v-.1c0-5.738,4.785-9.715,11.435-9.715a18.585,18.585,0,0,1,12.156,4.211l-3.159,4.454a15.188,15.188,0,0,0-9.093-3.446c-3.446,0-5.454,1.77-5.454,3.971v.1c0,2.585,1.53,3.731,7.942,5.266,7.083,1.72,10.772,4.255,10.772,9.811v.1c0,6.268-4.932,10-11.965,10a20.644,20.644,0,0,1-13.975-5.362" transform="translate(109.56 180.408)" fill="#1d1d1b"/>
+        <rect id="Rectángulo_12" data-name="Rectángulo 12" width="5.887" height="33.503" transform="translate(210.895 292.892)" fill="#1d1d1b"/>
+        <path id="Trazado_30" data-name="Trazado 30" d="M85.528,135.325v-.1a17.518,17.518,0,0,1,35.033-.1v.1a17.518,17.518,0,0,1-35.033.1m28.862,0v-.1c0-6.509-4.738-11.921-11.4-11.921S91.7,128.623,91.7,135.132v.1c0,6.509,4.741,11.915,11.4,11.915s11.294-5.315,11.294-11.819m-8.378-27.042h7.106l-4.671,6.169-7.02-.005Z" transform="translate(137.762 174.414)" fill="#1d1d1b"/>
+        <path id="Trazado_31" data-name="Trazado 31" d="M101.314,112.188h5.454l17.949,23.165V112.188h5.791v33.5h-4.934L107.1,121.855v23.836h-5.791Z" transform="translate(163.19 180.704)" fill="#1d1d1b"/>
+        <rect id="Rectángulo_13" data-name="Rectángulo 13" width="13.644" height="48.969" transform="translate(2.655 226.107)" fill="#1d1d1b"/>
+        <path id="Trazado_32" data-name="Trazado 32" d="M10.477,86.607H24.813L36.5,105.561l11.68-18.954H62.527v48.969h-13.5V107.451L36.5,126.619h-.279L23.771,107.594v27.982H10.477Z" transform="translate(16.876 139.5)" fill="#1d1d1b"/>
+        <path id="Trazado_33" data-name="Trazado 33" d="M53.06,86.471H66.143L86.992,135.8H72.437l-3.566-8.749H49.98l-3.5,8.749H32.211ZM64.95,116.484,59.5,102.564l-5.53,13.92Z" transform="translate(51.883 139.281)" fill="#1d1d1b"/>
+        <path id="Trazado_34" data-name="Trazado 34" d="M53.435,111.837v-.144c0-14.268,11.19-25.462,26.374-25.462,8.6,0,14.693,2.655,19.87,7.135L91.7,102.95c-3.5-2.937-7-4.618-11.821-4.618-7.067,0-12.526,5.947-12.526,13.435v.138c0,7.908,5.524,13.571,13.294,13.571a13.863,13.863,0,0,0,7.837-2.026V117.5H78.83v-9.931h22.525V129.6a33.093,33.093,0,0,1-21.27,7.561c-15.247,0-26.65-10.493-26.65-25.324" transform="translate(86.069 138.895)" fill="#1d1d1b"/>
+        <path id="Trazado_35" data-name="Trazado 35" d="M93.765,86.607h12.665l20.15,25.883V86.607h13.435v48.969h-11.9L107.2,108.712v26.864H93.765Z" transform="translate(151.029 139.5)" fill="#1d1d1b"/>
+        <path id="Trazado_36" data-name="Trazado 36" d="M75.249,86.6h39.385V98.152H88.678v7.412h21.7v10.7h-21.7v7.764h26.306V135.58H75.249Z" transform="translate(121.205 139.497)" fill="#1d1d1b"/>
+        <rect id="Rectángulo_14" data-name="Rectángulo 14" width="89.039" height="89.039" transform="translate(102.327 107.353)" fill="#e3032e"/>
+        <path id="Trazado_37" data-name="Trazado 37" d="M135.86,49.236A49.236,49.236,0,1,1,86.625,0,49.238,49.238,0,0,1,135.86,49.236" transform="translate(60.223 0)" fill="#1487c9"/>
+      </g>
+    </g>
+  </g>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>
