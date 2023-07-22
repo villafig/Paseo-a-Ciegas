@@ -57,6 +57,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a
+                class="nav-link active"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
             <li class="nav-item">
                             <a
                 class="nav-link active"
@@ -88,11 +96,11 @@
     <!--Fin Navbar-->
 
     <div class="text-center m-5">
-      <p>
+      <h5>
         Paseo a Ciegas es una Asociación Civil sin fines de lucro que genera y
         promueve actividades recreativas, culturales y deportivas para personas
         con discapacidad con el apoyo de ciudadanos voluntarios.
-      </p>
+      </h5>
     </div>
 
     <!--Inicio Carrusel-->
@@ -104,14 +112,14 @@
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="5000">
           <img
-            src="./Imágenes/carrusel_1.jpeg"
+            src="./Imágenes/carrusel_15.jpeg"
             class="d-block w-100 img_carrusel"
             alt="..."
           />
         </div>
         <div class="carousel-item" data-bs-interval="2000">
           <img
-            src="./Imágenes/carrusel_2.jpeg"
+            src="./Imágenes/carrusel_17.jpeg"
             class="d-block w-100 img_carrusel"
             alt="..."
           />
@@ -163,9 +171,9 @@
     <div class="row d-flex justify-content-center text-center">
       <div class="col-xl-2 col-md-6 col-sm-12 mb-2">
         <img
-          class="imagen_tvazteca mt-5"
-          src="./Imágenes/logo_tvazteca.png"
-          alt="logo_tvazteca"
+          class="imagen_reforma mt-5"
+          src="./Imágenes/Logo_reforma.png"
+          alt="logo_reforma"
         />
       </div>
 
@@ -217,23 +225,13 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <div class="video-container mb-5">
+          <div class="video-container mb-2 mt-5">
             <div class="video-wrapper">
               <div class="video-wrapper-inner">
-                <iframe
-                  class="video"
-                  src="https://www.facebook.com/Perspectivos/videos/777047905764711/"
-                  width="560"
-                  height="314"
-                  style="border: none; overflow: hidden"
-                  scrolling="no"
-                  frameborder="0"
-                  allowfullscreen="true"
-                  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                ></iframe>
+                <iframe class="video" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPaseoaCiegasAC%2Fvideos%2F368816915304905%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
               </div>
             </div>
-          </div>
+          </div>  
         </div>
       </div>
     </div>
@@ -268,41 +266,58 @@
     </div>
 
 <div class="container">
-  <div class="row d-flex align-items-stretch">
+  <div class="row">
+    <!-- Primer elemento (formulario) -->
     <div class="col-xl-6 col-sm-12">
       <div class="text-center">
-        <h2>Escríbenos</h2>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Correo</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" />
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Razón de contacto</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+        <h4>Escríbenos</h4>
+        <form>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Cuéntanos</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
       </div>
     </div>
 
+    <!-- Segundo elemento (mapa) -->
     <div class="col-xl-6 col-sm-12">
       <div class="text-center">
         <h4>Visítanos todos los domingos</h4>
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.6916363235855!2d-99.17406612521691!3d19.42572504090127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff9f66d5cd35%3A0xba8ede7573cd9b27!2sFlecha%20de%20la%20Diana%20cazadora!5e0!3m2!1ses-419!2smx!4v1684974640996!5m2!1ses-419!2smx" allowfullscreen="" style="border: 0" allowfullscreen="" loading="lazy" class="mx-auto w-100"></iframe>
+          <iframe
+            class="video"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.6978060223178!2d-99.17449852521698!3d19.42545864090975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff9f66d5cd35%3A0xba8ede7573cd9b27!2sFlecha%20de%20la%20Diana%20cazadora!5e0!3m2!1ses-419!2smx!4v1690049669338!5m2!1ses-419!2smx"
+            width="400"
+            height="200"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+
     <footer class="text-center">
       <div class="container">
         <h4 class="mb-4">info@paseoaciegas.com</h4>
+        <a href="https://www.youtube.com/@paseoaciegasa.c.-oficial1463" target="_blank">
         <img
           class="logo_youtube"
           src="./Imágenes/youtube_logo.webp"
           alt="logo_youtube"
-        />
-        <img class="logo_fb" src="./Imágenes/fb_logo.webp" alt="logo_fb" />
+        /></a>
+        <a href="https://www.facebook.com/PaseoaCiegasAC" target="_blank"> 
+        <img class="logo_fb" src="./Imágenes/fb_logo.webp" alt="logo_fb" /></a>
       </div>
     </footer>
 
